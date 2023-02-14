@@ -89,6 +89,7 @@ html {
   
   @media screen and (min-width:400px){
     main{
+      background:cyan;
       width:520px;
     }
   }
