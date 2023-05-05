@@ -1,0 +1,110 @@
+
+body {
+  
+	text-align: center;
+	font-family:Arial;
+	font-size: 20px;
+	background-image: url('../img/gradientback.jpg');
+  background-position: 60%;
+}
+
+#header{
+  background-image: url();
+}
+
+#container{
+  color: #FFF;
+  background-image: url();
+}
+
+#nav {
+	background-color: #000;
+}
+#nav ul {
+	list-style-type: none;
+	margin-left: 20%;
+  padding-bottom: 0%;
+  padding-top: 10%;
+}
+#nav ul li {
+	display: inline;
+	height: 50px;
+	line-height: 50px;
+}
+#nav ul li a {
+	display: inline-block;
+	padding-right: 10px;
+	padding-left: 10px;
+	font-size: 20px;
+}
+#nav ul li a:link, #nav ul li a:visited {
+	text-decoration: none;
+	border-bottom-width: 4px;
+	border-bottom-style: solid;
+	border-bottom-color: #000;
+	color: #FFF;
+}
+#nav ul li a:hover {
+	border-bottom-width: 3px;
+	border-bottom-style: solid;
+	border-bottom-color: #CCC;
+}
+
+
+
+
+.carousel {
+    width: 80%;
+    margin: 0 auto;
+  }
+  
+  .slick-slide img {
+    width: 100%;
+  }
+  
+  .slick-prev:before,
+  .slick-next:before {
+    color: black;
+  }
+  
+  .slick-dots {
+    bottom: -30px;
+  }
+  
+  .slick-dots li button:before {
+    color: black;
+  }
+  
+  /* Tablet view */
+  @media only screen and (min-width: 768px) {
+    .carousel {
+      width: 70%;
+    }
+  }
+  
+  /* Desktop view */
+  @media only screen and (min-width: 1024px) {
+    .carousel {
+      width: 60%;
+    }
+
+      /* mobile view */
+  @media only screen and (min-width: 390px) {
+    .carousel {
+      width: 60%;
+    }
+  }
+}
+
+#footer {
+	background-color: #000;
+	color: #FFF;
+	height: 25px;
+}
+#footer h6 {
+	font-size: 20px;
+	line-height: 25px;
+	margin-right: 20px;
+	margin-left: 20px;
+
+}

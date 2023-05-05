@@ -1,18 +1,25 @@
-<!doctype html>
-
+<!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="utf-8">
-
-  <title>Alexander Ma</title>
-  <meta name="description" content="Keyword Rich Description" />
-  <meta name="author" content="Alexander Ma" />
-  <link href="assets/css/style.css" rel="stylesheet"/>
-
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <title>Responsive Images</title>
 </head>
-
 <body>
-    <h1>Responsive images</h1>
-
+    <main>
+        <h2>Responsive Images</h2>
+        
+        <img srcset="./assets/img/reflection_3_480x.jpg 480w,
+                    ./assets/img/reflection_2_768x.jpg 800w,
+                    ./assets/img/reflection_1_1024x.jpg 2000w"
+             sizes="(max-width: 600px) 480px,
+                    (max-width: 1000px) 800px,
+                    1000px"
+             src="./assets/img/reflection_1_1024x.jpg"
+             alt="reflection of a lake"
+             width="1000" height="666.5"      >
+      </main>
 </body>
 </html>
