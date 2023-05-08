@@ -11,7 +11,10 @@ $(document).ready(function(){
   
 
   $(document).ready(function(){
-    $('.your-class').slick({
-      setting-name: setting-value
+    $('.carousel').slick({
+      "autoplay": true,
+      "dots": true,
+      "slidesToShow": 3,
+      "slidesToScroll": 1  
     });
   });
